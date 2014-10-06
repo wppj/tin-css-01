@@ -40,3 +40,6 @@ p+p {
     width: 580px;
     background-color:#eed680;
 }
+.clear {
+    clear: both;
+}
