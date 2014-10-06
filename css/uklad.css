@@ -31,12 +31,12 @@ p+p {
     background-repeat: repeat-y;
 }
 #menu {
-    position: absolute;
-    top: 0; left: 0;
+    float: left;
     width: 180px;
     background-color: #d1940c;
 }
 #cont {
-    margin-left: 180px;
+    float: right;
+    width: 580px;
     background-color:#eed680;
 }
