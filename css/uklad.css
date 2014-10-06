@@ -1,6 +1,13 @@
 /*
  * Prosty układ dwukolumnowy
  */
+body, p {
+    margin-top:0;
+    margin-bottom:0;
+}
+p+p {
+    margin-top: 1em; /* standardowa wartość */
+}
 #wrap {
     position: relative;
     width: 760px;
