@@ -1,12 +1,9 @@
 /*
- * Prosty układ dwukolumnowy
+ * Tabelowy układ dwukolumnowy
  */
-body, p {
+body {
     margin-top:0;
     margin-bottom:0;
-}
-p+p {
-    margin-top: 1em; /* standardowa wartość */
 }
 #wrap {
     position: relative;
@@ -26,21 +23,16 @@ p+p {
     text-align: right;
 }
 #main {
-    position: relative;
-    background-image: url(../img/tlo.gif);
-    background-repeat: repeat-y;
-    background-color: #eed680;
+    display: table;
+    border-collapse: collapse;
 }
 #menu {
-    float: left;
+    display: table-cell;
     width: 180px;
     background-color: #d1940c;
 }
 #cont {
-    float: right;
+    display: table-cell;
     width: 580px;
     background-color:#eed680;
-}
-.clear {
-    clear: both;
 }
