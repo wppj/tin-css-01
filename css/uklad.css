@@ -29,6 +29,7 @@ p+p {
     position: relative;
     background-image: url(../img/tlo.gif);
     background-repeat: repeat-y;
+    background-color: #eed680;
 }
 #menu {
     float: left;
