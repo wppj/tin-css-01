@@ -20,6 +20,8 @@
 }
 #main {
     position: relative;
+    background-image: url(../img/tlo.gif);
+    background-repeat: repeat-y;
 }
 #menu {
     position: absolute;
